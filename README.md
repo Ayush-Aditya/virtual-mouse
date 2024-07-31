@@ -1,7 +1,16 @@
-This project has been developed to imitate a real mouse in the first stage, it only uses media pipe hand gesture detection to detect the hands, which are used to control the mouse virtually.
-It uses pyautogui to interact with the GUI interface of the machine.
-In the second stage, I will be working on gesture detection using LSTM ((RNN) recurrent neural network) and bind those gestures with the hotkey feature of pygautogui to make the mouse feature rich.
+Virtual Mouse and Gesture Control
+This project is designed to simulate a real mouse using hand gestures detected by MediaPipe, enabling seamless virtual control. Initially, the project utilizes MediaPipe’s hand gesture detection to track hands and control the mouse on a screen. PyAutoGUI is then employed to interact with the GUI interface of the machine.
 
-The main file VIRTUAL_MOUSE.py uses media pipe gesture detection to find the hand's landmark which is adjusted to the screen height and width. After that, the code uses the distance between different fingers to perform various tasks like clicking. The mouse pointer always moves along the index finger to any point on the screen.
+In the second stage, the project incorporates gesture detection via neural networks, which are linked to PyAutoGUI's hotkey functionality, enriching the mouse's feature set with additional capabilities.
 
-The second file gamevirtual.py uses the same principle and keyboard-controlling libraries to perform the W,A,S,D control for CAR RACING games. With the help of this one can play car racing games using hand a webcam. In the real code droidcam is used to make cellphone as an external webcam.
+Project Files
+VIRTUAL_MOUSE.py: This script leverages MediaPipe to detect hand landmarks and adjust them to the screen’s height and width. It calculates the distance between various fingers to trigger different actions, such as clicking. The mouse pointer dynamically follows the index finger across the screen.
+
+gamevirtual.py: This file adapts the same gesture detection principles to control keyboard inputs, enabling W, A, S, D commands for car racing games. By utilizing a webcam, users can control racing games using hand gestures. The code includes integration with DroidCam, allowing a smartphone to be used as an external webcam.
+
+Gesturecontrolledslide.py: This script enables gesture-based control during presentations and public demonstrations. Users can perform actions like zooming, paging up or down, and more—simply using hand gestures in front of a webcam.
+
+Target Audience and Commercial Value
+This project is ideal for tech enthusiasts, developers, and researchers interested in exploring the capabilities of gesture recognition technology. It targets individuals looking to enhance user experience in gaming, virtual mouse control, and presentation environments.
+
+Commercially, the code holds significant potential for companies in the fields of human-computer interaction, gaming, and assistive technology. It offers innovative solutions for hands-free control, improving accessibility and providing a futuristic approach to interacting with digital environments. As gesture recognition becomes increasingly integral in various industries, this project serves as a valuable resource for developing cutting-edge, user-friendly interfaces.
