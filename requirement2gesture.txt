@@ -1,0 +1,8 @@
+# Specify Python version
+python==3.10.*
+
+# Required libraries with specific versions
+opencv-python==4.5.5.64
+mediapipe==0.8.6
+tensorflow==2.5.0
+pyautogui==0.9.52
