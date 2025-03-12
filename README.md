@@ -1,6 +1,6 @@
 # Virtual Mouse and Gesture Control
 
-![Virtual Mouse Banner](https://your-banner-image-url.com)
+
 
 ## 🚀 Overview
 The **Virtual Mouse and Gesture Control** project enables seamless, touch-free interaction with a computer using hand gestures detected by **MediaPipe**. It simulates a real mouse, allowing users to navigate, click, and control their system with intuitive hand movements. 
